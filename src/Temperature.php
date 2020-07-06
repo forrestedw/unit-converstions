@@ -3,7 +3,6 @@
 
 namespace Forrestedw\UnitConversions;
 
-
 class Temperature
 {
     /**
@@ -18,7 +17,6 @@ class Temperature
 
     public function __construct(float $celsius)
     {
-
         $this->celsius = $celsius;
     }
 

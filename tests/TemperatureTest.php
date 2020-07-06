@@ -3,7 +3,6 @@
 namespace Forrestedw\UnitConversions\Tests;
 
 use Forrestedw\UnitConversions\Temperature;
-use Forrestedw\UnitConversions\Weight;
 use PHPUnit\Framework\TestCase;
 
 class TemperatureTest extends TestCase
