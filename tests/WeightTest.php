@@ -20,7 +20,7 @@ class WeightTest extends TestCase
     {
         $lbs = Weight::fromGrams(100)->toLbs();
 
-        $this->assertEquals(round(0.220462,6), round($lbs,6));
+        $this->assertEquals(round(0.220462, 6), round($lbs, 6));
     }
 
     /** @test */
@@ -28,6 +28,6 @@ class WeightTest extends TestCase
     {
         $oz = Weight::fromGrams(100)->toOz();
 
-        $this->assertEquals(round(3.5274,4), round($oz,4));
+        $this->assertEquals(round(3.5274, 4), round($oz, 4));
     }
 }
