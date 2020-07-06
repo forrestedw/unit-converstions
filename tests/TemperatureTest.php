@@ -14,4 +14,12 @@ class TemperatureTest extends TestCase
 
         $this->assertEquals(212, $fahrenheit);
     }
+
+    /** @test */
+    public function it_breaks_the_laws_of_nature()
+    {
+        $fahrenheit = Temperature::fromCelsius(1000)->toFahrenheit();
+
+        $this->assertEquals(1000, $fahrenheit);
+    }
 }
