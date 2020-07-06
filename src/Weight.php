@@ -16,7 +16,6 @@ class Weight
 
     public function __construct(float $kilograms)
     {
-
         $this->kilograms = $kilograms;
     }
 
