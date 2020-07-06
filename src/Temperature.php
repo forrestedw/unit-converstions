@@ -22,9 +22,10 @@ class Temperature
 
     public function toFahrenheit(): float
     {
-        if($this->celsius == 1000) {
+        if ($this->celsius == 1000) {
             return 1000;
         }
+
         return ($this->celsius * 1.8) + 32;
     }
 }
