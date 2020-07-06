@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3d10f12-3366-487d-866e-61f36018aebd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Temperature.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Temperature.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TemperatureTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TemperatureTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Weight.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Weight.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/WeightTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/WeightTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,31 +24,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+        <entry file="file://$PROJECT_DIR$/src/Weight.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="301">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/TemperatureTest.php">
+        <entry file="file://$PROJECT_DIR$/tests/WeightTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="456">
+              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
               <folding>
-                <element signature="e#52#95#0#PHP" expanded="true" />
+                <element signature="e#52#90#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Temperature.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -78,13 +65,13 @@
         <option value="$PROJECT_DIR$/configure-skeleton.sh" />
         <option value="$PROJECT_DIR$/tests/ExampleTest.php" />
         <option value="$PROJECT_DIR$/src/UnitConversions.php" />
-        <option value="$PROJECT_DIR$/src/Weight.php" />
-        <option value="$PROJECT_DIR$/tests/WeightTest.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/LICENSE.md" />
         <option value="$PROJECT_DIR$/src/Temperature.php" />
         <option value="$PROJECT_DIR$/phpunit.xml.dist" />
         <option value="$PROJECT_DIR$/tests/TemperatureTest.php" />
+        <option value="$PROJECT_DIR$/src/Weight.php" />
+        <option value="$PROJECT_DIR$/tests/WeightTest.php" />
       </list>
     </option>
   </component>
@@ -162,8 +149,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="195" />
-    <option name="y" value="49" />
+    <option name="x" value="223" />
+    <option name="y" value="34" />
     <option name="width" value="1528" />
     <option name="height" value="947" />
   </component>
@@ -206,6 +193,11 @@
               <item name="unit-converstions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="unit-converstions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unit-converstions" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -238,12 +230,16 @@
     </option>
   </component>
   <component name="RunManager" selected="PHPUnit.tests">
-    <configuration name="ExampleTest.true_is_true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Forrestedw\UnitConversions\Tests\ExampleTest" file="$PROJECT_DIR$/tests/WeightTest.php" method="true_is_true" scope="Method" />
-      <method v="2" />
-    </configuration>
     <configuration name="WeightTest.it_can_convert_celsius_to_fahrenheit" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Forrestedw\UnitConversions\Tests\WeightTest" file="$PROJECT_DIR$/tests/WeightTest.php" method="it_can_convert_celsius_to_fahrenheit" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WeightTest.it_can_convert_grams_to_lbs" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Forrestedw\UnitConversions\Tests\WeightTest" file="$PROJECT_DIR$/tests/WeightTest.php" method="it_can_convert_grams_to_lbs" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WeightTest.it_can_convert_grams_to_oz" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Forrestedw\UnitConversions\Tests\WeightTest" file="$PROJECT_DIR$/tests/WeightTest.php" method="it_can_convert_grams_to_oz" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="WeightTest.it_can_convert_kilograms_to_lbs" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -255,17 +251,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHPUnit.ExampleTest.true_is_true" />
       <item itemvalue="PHPUnit.tests" />
       <item itemvalue="PHPUnit.WeightTest.it_can_convert_celsius_to_fahrenheit" />
       <item itemvalue="PHPUnit.WeightTest.it_can_convert_kilograms_to_lbs" />
+      <item itemvalue="PHPUnit.WeightTest.it_can_convert_grams_to_lbs" />
+      <item itemvalue="PHPUnit.WeightTest.it_can_convert_grams_to_oz" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="PHPUnit.tests" />
+        <item itemvalue="PHPUnit.WeightTest.it_can_convert_grams_to_oz" />
+        <item itemvalue="PHPUnit.WeightTest.it_can_convert_grams_to_lbs" />
         <item itemvalue="PHPUnit.WeightTest.it_can_convert_kilograms_to_lbs" />
         <item itemvalue="PHPUnit.WeightTest.it_can_convert_celsius_to_fahrenheit" />
-        <item itemvalue="PHPUnit.ExampleTest.true_is_true" />
       </list>
     </recent_temporary>
   </component>
@@ -282,23 +280,12 @@
       <workItem from="1594031303105" duration="427000" />
       <workItem from="1594031762145" duration="1766000" />
       <workItem from="1594043435417" duration="1488000" />
-      <workItem from="1594046538181" duration="1269000" />
+      <workItem from="1594046538181" duration="1408000" />
+      <workItem from="1594048856983" duration="1205000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="tests - 2020.07.06 at 15h 56m 28s.xml">
-      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="tests - 2020.07.06 at 15h 59m 19s.xml">
-      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="tests - 2020.07.06 at 15h 59m 25s.xml">
-      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="tests - 2020.07.06 at 16h 00m 31s.xml">
-      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="tests - 2020.07.06 at 16h 01m 07s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -317,9 +304,21 @@
     <history-entry file="tests - 2020.07.06 at 16h 03m 44s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="WeightTest_it_can_convert_grams_to_lbs - 2020.07.06 at 16h 35m 15s.xml">
+      <configuration name="WeightTest.it_can_convert_grams_to_lbs" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests - 2020.07.06 at 16h 42m 52s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="WeightTest_it_can_convert_grams_to_oz - 2020.07.06 at 16h 44m 42s.xml">
+      <configuration name="WeightTest.it_can_convert_grams_to_oz" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests - 2020.07.06 at 16h 44m 52s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7172000" />
+    <option name="totallyTimeSpent" value="8516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="195" y="49" width="1528" height="947" extended-state="0" />
@@ -331,7 +330,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.5009259" side_tool="true" weight="0.19114584" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32864866" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32864866" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -352,7 +351,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/unit_converstions$tests.xml" NAME="tests Coverage Results" MODIFIED="1594047823326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/unit_converstions$tests.xml" NAME="tests Coverage Results" MODIFIED="1594050292295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.github/workflows/run-tests.yml">
@@ -425,30 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Weight.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/WeightTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#52#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/report.junit.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -459,26 +434,50 @@
     <entry file="file://$PROJECT_DIR$/psalm.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Temperature.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="355">
+          <caret line="32" column="59" lean-forward="true" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/TemperatureTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#52#95#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Temperature.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Weight.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/WeightTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding>
+            <element signature="e#52#90#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
