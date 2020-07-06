@@ -5,13 +5,13 @@
         "forrestedw",
         "unit-converstions"
     ],
-    "homepage": "https://github.com/spatie/unit-converstions",
+    "homepage": "https://github.com/forrestedw/unit-converstions",
     "license": "MIT",
     "authors": [
         {
             "name": "Ed Forrest",
             "email": "forrestedw@gmail.com",
-            "homepage": "https://spatie.be",
+            "homepage": "https://edforrest.com",
             "role": "Developer"
         }
     ],
