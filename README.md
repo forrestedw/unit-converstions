@@ -1,7 +1,7 @@
 # A wonderful package to perform unit conversions on PHP
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/forrestedw/unit-converstions.svg?style=flat-square)](https://packagist.org/packages/forrestedw/unit-converstions)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/forrestedw/unit-converstions/run-tests?label=tests)](https://github.com/forrestedw/unit-converstions/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/forrestedw/unit-converstions/Tests?label=tests)](https://github.com/forrestedw/unit-converstions/actions?query=workflow%3ATests+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/forrestedw/unit-converstions.svg?style=flat-square)](https://packagist.org/packages/forrestedw/unit-converstions)
 
 
