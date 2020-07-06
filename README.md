@@ -1,8 +1,8 @@
 # A wonderful package to perform unit conversions on PHP
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/unit-converstions.svg?style=flat-square)](https://packagist.org/packages/spatie/unit-converstions)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/spatie/unit-converstions/run-tests?label=tests)](https://github.com/spatie/unit-converstions/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/unit-converstions.svg?style=flat-square)](https://packagist.org/packages/spatie/unit-converstions)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/forrestedw/unit-converstions.svg?style=flat-square)](https://packagist.org/packages/forrestedw/unit-converstions)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/forrestedw/unit-converstions/run-tests?label=tests)](https://github.com/forrestedw/unit-converstions/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/forrestedw/unit-converstions.svg?style=flat-square)](https://packagist.org/packages/forrestedw/unit-converstions)
 
 
 This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
@@ -13,7 +13,7 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require spatie/unit-converstions
+composer require forrestedw/unit-converstions
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover any security related issues, please email freek@spatie.be instead of using the issue tracker.
+If you discover any security related issues, please email forrestedw@gmail.com instead of using the issue tracker.
 
 ## Credits
 
